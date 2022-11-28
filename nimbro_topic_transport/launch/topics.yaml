@@ -1,5 +1,8 @@
 topics:
- - name: "/my_first_topic"
+ - name: "/chatter"
    compress: true # enable bz2 compression
    rate: 1.0 # rate limit at 1Hz
  - name: "/my_second_topic"
+ - name: "/from_ros2_pcd"
+   compress: true # enable bz2 compression
+   rate: 1.0 # rate limit at 1Hz
