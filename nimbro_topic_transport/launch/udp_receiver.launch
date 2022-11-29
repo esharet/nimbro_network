@@ -13,7 +13,8 @@
 		<!-- Remap topics so that sender & receiver do not clash if run on the
 		  same machine. This is not necessary in a typical setup :-)
 		 -->
-		<remap from="/my_first_topic" to="/recv/my_first_topic" />
+		<remap from="/chatter" to="/recv/chatter" />
 		<remap from="/my_second_topic" to="/recv/my_second_topic" />
+		<remap from="/from_ros2_pcd" to="/recv/from_ros2_pcd" />
 	</node>
 </launch>
