@@ -1,0 +1,1 @@
+docker run -it -v /dev:/dev -v /tmp/.X11-unix/:/tmp/.X11-unix -v $WS2:/home/ws2 ros:galactic-ros1-bridge bash
